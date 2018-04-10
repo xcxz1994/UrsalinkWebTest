@@ -1,0 +1,63 @@
+1523356127674	geckodriver	INFO	geckodriver 0.20.1
+1523356127695	geckodriver	INFO	Listening on 127.0.0.1:38321
+1523356128700	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.qWcXajidEpdY"
+1523356142768	Marionette	INFO	Enabled via --marionette
+
+(firefox:6762): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:6762): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:6762): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:6762): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:6762): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:6762): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:6835): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:6835): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:6835): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:6835): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:6835): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:6835): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1523356177018	Marionette	INFO	Listening on port 33254
+1523356177366	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript error: jar:file:///usr/lib/firefox/browser/omni.ja!/components/nsBrowserGlue.js, line 978: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIAppShellService.hiddenDOMWindow]
+1523356194616	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+1523356194700	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+(firefox:6762): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:6762): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:6762): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:6762): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:6762): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:6762): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:6762): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:6762): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:6762): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:6762): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:6762): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:6762): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:6762): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:6762): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
