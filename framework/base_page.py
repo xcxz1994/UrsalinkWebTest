@@ -59,7 +59,7 @@ class BasePage(object):
             self.get_windows_img()
 
     # 定位元素方法
-    def find_element(self, selector):
+    def find_element(self, selector):                                             #!!!!!!!!!!!!!!!!!!!!
         """
          这个地方为什么是根据=>来切割字符串，请看页面里定位元素的方法
          submit_btn = "id=>su"
@@ -110,7 +110,7 @@ class BasePage(object):
     # 输入
     def type(self, selector, text):
 
-        el = self.find_element(selector)
+        el = self.find_element(selector)                              #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
         el.clear()
         try:
             el.send_keys(text)

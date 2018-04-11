@@ -18,19 +18,19 @@ class BrowserEngine(object):
 
     # read the browser type from config.ini file, return the driver
     def open_browser(self, driver):
-        config =configparser.ConfigParser()
+        config =configparser.ConfigParser()                                  #!!!!!!!!!!!!!
         # file_path = os.path.dirname(os.getcwd()) + '/config/config.ini'
         file_path = os.path.dirname(os.path.abspath('.')) + '/config/config.ini'
         config.read(file_path)
 
-        browser = config.get("browserType", "browserName")
+        browser = config.get("browserType", "browserName")                     #!!!!!!!!!!!!!!!
         logger.info("You had select %s browser." % browser)
-        url = config.get("testServer", "URL")
+        url = config.get("testServer", "URL")                                  #!!!!!!!!!!!!!!!!!
         logger.info("The test server url is: %s" % url)
 
 
         if browser == "Firefox":
-            driver = webdriver.Firefox()
+            driver = webdriver.Firefox()                                   #!!!!!!!!!!!!!!
             logger.info("Starting firefox browser.")
         elif browser == "Chrome":
             driver = webdriver.Chrome(self.chrome_driver_path)

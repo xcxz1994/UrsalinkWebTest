@@ -1,0 +1,6 @@
+2018-04-10 23:52:27,871 - BrowserEngine - INFO - You had select Firefox browser.
+2018-04-10 23:52:27,873 - BrowserEngine - INFO - The test server url is: http://192.168.23.135/login.html
+2018-04-10 23:52:39,206 - BrowserEngine - INFO - Starting firefox browser.
+2018-04-10 23:52:41,688 - BrowserEngine - INFO - Open url: http://192.168.23.135/login.html
+2018-04-10 23:52:42,210 - BrowserEngine - INFO - Maximize the current window.
+2018-04-10 23:52:42,228 - BrowserEngine - INFO - Set implicitly wait 10 seconds.
