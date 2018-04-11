@@ -8,6 +8,7 @@ logger = Logger(logger="BrowserEngine").getlog()
 
 
 class BrowserEngine(object):
+
     dir = os.path.dirname(os.path.abspath('.'))  # 注意相对路径获取方法
     chrome_driver_path = dir + '/tools/chromedriver.exe'
     ie_driver_path = dir + '/tools/IEDriverServer.exe'
@@ -15,10 +16,9 @@ class BrowserEngine(object):
     def __init__(self, driver):
         self.driver = driver
 
-        # read the browser type from config.ini file, return the driver
-
+    # read the browser type from config.ini file, return the driver
     def open_browser(self, driver):
-        config = configparser.configparser();
+        config =configparser.ConfigParser()
         # file_path = os.path.dirname(os.getcwd()) + '/config/config.ini'
         file_path = os.path.dirname(os.path.abspath('.')) + '/config/config.ini'
         config.read(file_path)
@@ -27,6 +27,7 @@ class BrowserEngine(object):
         logger.info("You had select %s browser." % browser)
         url = config.get("testServer", "URL")
         logger.info("The test server url is: %s" % url)
+
 
         if browser == "Firefox":
             driver = webdriver.Firefox()

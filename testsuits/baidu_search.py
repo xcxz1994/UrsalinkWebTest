@@ -29,7 +29,8 @@ class BaiduSearch(unittest.TestCase):
         :return:
         """
         self.driver.find_element_by_id('kw').send_keys('selenium')
-        time.sleep(1)
+        self.driver.find_element_by_id('su').click()            #!!!!!!!!!!!
+        time.sleep(5)
         try:
             assert 'selenium' in self.driver.title
             print ('Test Pass.')
