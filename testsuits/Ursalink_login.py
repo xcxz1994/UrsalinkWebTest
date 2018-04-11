@@ -4,7 +4,7 @@ import unittest
 from framework.browser_engine import BrowserEngine          #!!!!!!!!!!
 from UrsalinkTestWeb.loginTest import LoginPage
 
-class BaiduSearch(unittest.TestCase):
+class UrsalinkLogin(unittest.TestCase):
 
 
     def setUp(self):
@@ -23,7 +23,7 @@ class BaiduSearch(unittest.TestCase):
         """
         self.driver.quit()
 
-    def test_baidu_search(self):
+    def test_Ursalink_login(self):
         """
         这里一定要test开头，把测试逻辑代码封装到一个test开头的方法里。
         :return:
@@ -33,7 +33,13 @@ class BaiduSearch(unittest.TestCase):
         self.driver.find_element_by_id('password').send_keys('password')
 
         self.driver.find_element_by_id('login').click()            #!!!!!!!!!!!
-        time.sleep(5)
+        time.sleep(10)
+        cookie = [item["name"] + "=" + item["value"] for item in self.driver.get_cookies()]
+
+        print(cookie)
+        cookiestr = ';'.join(item for item in cookie)
+        print(cookiestr)
+
         try:
             self.assertEqual(u"URSALINK",self.driver.title)
             print ('Test Pass.')
