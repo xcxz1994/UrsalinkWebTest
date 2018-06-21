@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import serial
-
+import time
+import sys
 
 #打开串口
 serialPort="/dev/ttyS0"   #串口
